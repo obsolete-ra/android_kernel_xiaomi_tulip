@@ -4292,6 +4292,7 @@ static int mdss_fb_pan_display(struct fb_var_screeninfo *var,
 {
 	struct mdp_display_commit disp_commit;
 	struct msm_fb_data_type *mfd = (struct msm_fb_data_type *)info->par;
+	struct mdss_data_type *mdata = mfd_to_mdata(mfd);
 
 	/*
 	 * during mode switch through mode sysfs node, it will trigger a
