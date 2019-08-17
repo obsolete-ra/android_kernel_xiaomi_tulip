@@ -51,6 +51,11 @@ Module.symvers
 /vmlinuz
 /System.map
 /Module.markers
+/AnyKernel3
+/clang
+/out
+/stock
+/stock_32
 
 #
 # Debian directory (make deb-pkg)
